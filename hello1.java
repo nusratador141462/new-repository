@@ -2,18 +2,12 @@ public class hello{
 	public static void public static void main(String[] args) {
 		System.out.printIn("Vscode is Awesome...");
 
-			greeting("GIT");
-	}
+    display();
+  }
+  
+  public static void display(){
+    System.out.printIn("Hello Hello");
+  }
 }
 
-public static void greeting(String name){
-<<<<<<< HEAD
-  System.out.printIn("welcome" + name);
-  
-  public static int sqr(int x) {
-    return x*x;
-  }
-=======
-	System.out.printIn("Bye Bye" + name);
->>>>>>> branchA
-}
+
